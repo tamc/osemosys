@@ -1,0 +1,23 @@
+= INTRODUCTION
+
+OSeMOSYS is an open source energy modelling system, running on top of the open source GNU Linear Programming Kit.
+
+= THIS IS A FORK
+
+This is a fork of OSeMOSYS_2010_11_2.txt and associated UTOPIA data file. The purpose of the fork is for Tom Counsell to explore the model.
+
+The master version of this fork is at:
+http://github.com/tamc/osmosys
+
+The canonical version of OSeMOSYS is available from http://osmosys.yolasite.com/
+
+= DEPENDENCIES
+
+GnuLinearProgrammingKit (glpk)
+
+= RUNNING
+
+glpsol --model model.glpk --data data.txt --output results.txt
+
+= ISSUES
+
